@@ -1,0 +1,225 @@
+[2024-01-03 10:24:26] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:25:03] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:26:30] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:27:05] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:30:15] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:30:17] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:30:20] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:31:17] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:31:19] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:31:21] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:33:19] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:33:21] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:33:28] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:33:30] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-01-03 10:33:33] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /var/www/html/Training_Tasks/Laravel_Training/solid-demo/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
