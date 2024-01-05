@@ -36,6 +36,12 @@ return [
             'throw' => false,
         ],
 
+        "customers" => [
+            "driver" => "local",
+            "root" => storage_path("app/jsonl"),
+            "throw" => false,
+        ],
+
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
