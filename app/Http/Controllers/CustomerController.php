@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Services\CustomerService;
 
 class CustomerController extends Controller {
-    private  CustomerService $customerService;
+    private CustomerService $customerService;
 
     public function __construct(CustomerService $customerService) {
         $this->customerService = $customerService;
