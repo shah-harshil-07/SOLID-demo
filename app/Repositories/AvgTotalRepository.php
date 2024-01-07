@@ -1,11 +1,9 @@
 <?php
 
-namespace App\Respository;
-
-use CustomerRepository;
+namespace App\Repositories;
 
 class AvgTotalRepository extends CustomerRepository {
-    public function getData($data) {
-        return 50;
+    function getData($data): string {
+        return "123";
     }
 }

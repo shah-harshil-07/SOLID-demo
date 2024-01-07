@@ -1,11 +1,9 @@
 <?php
 
-namespace App\Respository;
-
-use CustomerRepository;
+namespace App\Repositories;
 
 class IdRepository extends CustomerRepository {
-    public function getData($data) {
-        return 123;
+    function getData($data): int {
+        return $data->customer_id;
     }
 }

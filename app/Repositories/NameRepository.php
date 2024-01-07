@@ -1,11 +1,9 @@
 <?php
 
-namespace App\Respository;
-
-use CustomerRepository;
+namespace App\Repositories;
 
 class NameRepository extends CustomerRepository {
-    public function getData($data) {
-        return "Name";
+    function getData($data): string {
+        return $data->name;
     }
 }

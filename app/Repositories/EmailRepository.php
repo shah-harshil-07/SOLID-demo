@@ -1,11 +1,9 @@
 <?php
 
-namespace App\Respository;
-
-use CustomerRepository;
+namespace App\Repositories;
 
 class EmailRepository extends CustomerRepository {
-    public function getData($data) {
-        return "Email";
+    function getData($data): string {
+        return $data->email;
     }
 }

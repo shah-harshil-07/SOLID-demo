@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Services\CustomerService;
 
 class CustomerController extends Controller {
@@ -12,7 +11,7 @@ class CustomerController extends Controller {
         $this->customerService = $customerService;
     }
 
-    public function show(Request $request) {
+    public function show() {
         return $this->customerService->getCustomers();
     }
 }
