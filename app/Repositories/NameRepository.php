@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-class NameRepository extends CustomerRepository {
+class NameRepository implements CustomerRepository {
     function getData($data): string {
         return $data->name;
     }

@@ -4,7 +4,7 @@ namespace App\Repositories;
 
 use App\Traits\OrderTrait;
 
-class AvgItemsRepository extends CustomerRepository {
+class AvgItemsRepository implements CustomerRepository {
     use OrderTrait;
 
     function getData($data): int {

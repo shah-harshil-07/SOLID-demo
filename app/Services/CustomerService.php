@@ -22,34 +22,26 @@ class CustomerService {
     private TotalSpendRepository $totalSpendRepository;
 
     public function __construct(CustomerDataFactory $customerDataFactory) {
-        try {
-            $customersJson = Storage::disk("customers")->get("customer_order.jsonl");
-            $this->customerData = json_decode($customersJson);
-
-            $this->customerFactory = $customerDataFactory;
-        } catch (\Throwable $th) {
-            dd($th->getMessage());
-            return null;
-        }
+        $this->customerFactory = $customerDataFactory;
     }
 
-    function getCustomers() {
+    function getCustomers(): ?array {
         try {
             $customersJson = Storage::disk("customers")->get("customer_order.jsonl");
             $this->customerData = json_decode($customersJson);
             return $this->arrangeCustomerData();
         } catch (\Throwable $th) {
             dd($th->getMessage());
-            return null;
+            return $th;
         }
     }
 
-    function arrangeCustomerData() {
+    function arrangeCustomerData(): array {
         $formattedCustomers = [];
         $n = count($this->customerData);
 
         for ($i = 0; $i < $n; $i++) {
-            $customerObj = $this->customerData[$i];
+            $customerObj = $this->customerData[$i] ?? null;
 
             array_push(
                 $formattedCustomers,
@@ -67,32 +59,32 @@ class CustomerService {
         return $formattedCustomers;
     }
 
-    function getId($customerObj) {
+    function getId($customerObj): int | null {
         $this->idRepository = $this->customerFactory->getDataRepository("customer_id");
         return isset($this->idRepository) ? $this->idRepository->getData($customerObj->customer) : null;
     }
 
-    function getName($customerObj) {
+    function getName($customerObj): string | null {
         $this->nameRepository = $this->customerFactory->getDataRepository(("name"));
         return isset($this->idRepository) ? $this->nameRepository->getData(($customerObj->customer)) : null;
     }
 
-    function getEmail($customerObj) {
+    function getEmail($customerObj): string | null {
         $this->emailRepository = $this->customerFactory->getDataRepository(("email"));
         return isset($this->emailRepository) ? $this->emailRepository->getData(($customerObj->customer)) : null;
     }
 
-    function getTotalSpend($customerObj) {
+    function getTotalSpend($customerObj): int | null {
         $this->totalSpendRepository = $this->customerFactory->getDataRepository(("total_spend"));
         return isset($this->totalSpendRepository) ? $this->totalSpendRepository->getData(($customerObj->customer)) : null;
     }
 
-    function getAvgOrder($customerObj) {
+    function getAvgOrder($customerObj): int | null {
         $this->avgTotalRepository = $this->customerFactory->getDataRepository(("average_order_total"));
         return isset($this->avgTotalRepository) ? $this->avgTotalRepository->getData(($customerObj->customer)) : null;
     }
 
-    function getAvgItems($customerObj) {
+    function getAvgItems($customerObj): int | null {
         $this->avgItemsRepository = $this->customerFactory->getDataRepository(("average_order_items"));
         return isset($this->avgItemsRepository) ? $this->avgItemsRepository->getData(($customerObj->customer)) : null;
     }

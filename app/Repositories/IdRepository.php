@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-class IdRepository extends CustomerRepository {
+class IdRepository implements CustomerRepository {
     function getData($data): int {
         return $data->customer_id;
     }

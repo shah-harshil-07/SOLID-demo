@@ -2,6 +2,6 @@
 
 namespace App\Repositories;
 
-abstract class CustomerRepository {
-    abstract protected function getData($data): string | int;
+interface CustomerRepository {
+    function getData($data): string | int;
 }

@@ -12,6 +12,10 @@ class CustomerController extends Controller {
     }
 
     public function show() {
-        return $this->customerService->getCustomers();
+        try {
+            return $this->customerService->getCustomers();
+        } catch (\Throwable $th) {
+            dd($th->getMessage());
+        }
     }
 }
