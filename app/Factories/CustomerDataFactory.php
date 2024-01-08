@@ -11,7 +11,7 @@ use App\Repositories\CustomerRepository;
 use App\Repositories\TotalSpendRepository;
 
 class CustomerDataFactory {
-    public function getDataRepository($key): CustomerRepository {
+    public function getDataRepository($key): CustomerRepository | null {
         switch ($key) {
             case "customer_id":
                 return new IdRepository();
@@ -26,7 +26,7 @@ class CustomerDataFactory {
             case "average_order_items":
                 return new AvgItemsRepository();
             default:
-                return new AvgItemsRepository();
+                return null;
         }
     }
 }
