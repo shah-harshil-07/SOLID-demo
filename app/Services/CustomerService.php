@@ -2,18 +2,27 @@
 
 namespace App\Services;
 
+use CustomerDTO;
 use Illuminate\Support\Facades\Storage;
 
 class CustomerService {
     protected $customerData;
     private OrderService $order_service;
 
+    /**
+     * Recieve all the customers' details
+     * @return CustomerDTO[]
+     */
     function getCustomers(): array {
         $customersJson = Storage::disk("customers")->get("customer_order.jsonl");
         $this->customerData = json_decode($customersJson, true);
         return $this->arrangeCustomerData();
     }
 
+    /**
+     * Recieve all the customers' details
+     * @return CustomerDTO[]
+     */
     function arrangeCustomerData(): array {
         $formattedCustomers = [];
 

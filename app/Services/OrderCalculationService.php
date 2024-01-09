@@ -4,9 +4,6 @@ namespace App\Services;
 
 class OrderCalculationService {
     private $orders;
-    private $order_sum;
-    private $total_items;
-    private $total_orders;
 
     function __construct($orders) {
         $this->orders = $orders;
